@@ -8,5 +8,6 @@
     "version": "0.1.0",
     "url": "https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}",
     "pypi_url": "https://pypi.org/project/{{cookiecutter.project_slug}}/#files",
+    "use_pypi_deployment_with_travis": "y",
     "license": ["MIT", "BSD", "ISC", "Apache", "GPLv2", "GPLv3", "Not open source"]
 }
