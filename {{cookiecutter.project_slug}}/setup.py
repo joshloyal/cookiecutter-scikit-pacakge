@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 # import ``__version__` from code base
-exec(open(os.path.join(HERE, '{{cookcutter.project_slug}}', 'version.py')).read())
+exec(open(os.path.join(HERE, '{{cookiecutter.project_slug}}', 'version.py')).read())
 
 
 with open('requirements.txt') as f:
