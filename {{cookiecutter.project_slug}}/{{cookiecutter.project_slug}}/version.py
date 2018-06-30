@@ -4,5 +4,5 @@ from __future__ import print_function
 
 __all__ = ['__version__', 'VERSION']
 
-__version__ = '{{cookiecutter.project_version}}'
+__version__ = '{{cookiecutter.version}}'
 VERSION = __version__

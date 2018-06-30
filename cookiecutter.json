@@ -4,10 +4,9 @@
     "github_username": "joshloyal",
     "project_name": "Package Boilerplate",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-    "project_short_description": "{{ Package Boilerplate contains all the boilerplate I need when creating a package.",
+    "project_short_description": "Package Boilerplate contains all the boilerplate I need when creating a package.",
     "version": "0.1.0",
-    "url": "",
-    "pypi_url": "",
-    "licensce": "MIT",
-
+    "url": "URL",
+    "pypi_url": "PYPI_URL",
+    "licensce": "MIT"
 }
