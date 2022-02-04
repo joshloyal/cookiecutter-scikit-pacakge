@@ -5,6 +5,7 @@
     "project_name": "Package Boilerplate",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "project_short_description": "{{ cookiecutter.project_name }}",
+    "has_cython": ["y", "n"],
     "version": "0.1.0",
     "url": "https://{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}",
     "pypi_url": "https://pypi.org/project/{{cookiecutter.project_slug}}/#files",

@@ -43,8 +43,6 @@ Documentation / Website: {{ cookiecutter.url }}
 
 Example
 -------
-Example that shows how to learn a one dimensional subspace from a dataset with ten features:
-
 .. code-block:: python
 
     print("Hello, world!")
@@ -65,14 +63,14 @@ Additionally, to run examples, you need matplotlib(>=2.0.0).
 
 Installation
 ------------
-You need a working installation of numpy and scipy to install {{cookiecutter.project_name}}. If you have a working installation of numpy and scipy, the easiest way to install sliced is using ``pip``::
+You need a working installation of numpy and scipy to install {{cookiecutter.project_name}}. If you have a working installation of numpy and scipy, the easiest way to install {{cookiecutter.project_slug}} is using ``pip``::
 
-    pip install -U sliced
+    pip install -U {{ cookiecutter.project_slug }}
 
 If you prefer, you can clone the repository and run the setup.py file. Use the following commands to get the copy from GitHub and install all the dependencies::
 
     git clone https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}.git
-    cd sliced
+    cd {{ cookiecutter.project_slug }}
     pip install .
 
 Or install using pip and GitHub::
